@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --brand: #316263; /* Transformative Teal (approx) */
+    --accent: #f6f9f9;
+    --muted: #6b7280;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    font-family: 'Vazirmatn', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(180deg, #f7faf9, #ffffff);
+}
+
+/* small helper for RTL-aware layout */
+.rtl\:ml-2[dir='rtl'] { margin-left: 0.5rem }
+
+/* card shadow */
+.card {
+    @apply bg-white rounded-2xl shadow-md p-4;
+}
+
+/* accessible focus */
+:focus {
+    outline: 3px solid rgba(49,98,99,0.18);
+    outline-offset: 2px;
+}
+
+/* tiny responsive tweaks */
+@media (min-width: 768px) {
+    .container-md { max-width: 760px }
+}
