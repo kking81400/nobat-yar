@@ -6,7 +6,7 @@ export const DOCTORS = [
         city: 'تهران',
         rating: 4.8,
         bio: 'متخصص داخلی با 10 سال تجربه در درمان بیماری‌های داخلی و مدیریت مراقبت‌های مزمن.',
-        avatar: 'https://i.pravatar.cc/150?img=12',
+        avatar: 'https://randomuser.me/api/portraits/women/65.jpg',
         schedule: { days: [1,2,3,4,5], start: '09:00', end: '17:00', slotMinutes: 30 }
     },
     {
@@ -16,7 +16,7 @@ export const DOCTORS = [
         city: 'مشهد',
         rating: 4.7,
         bio: 'پزشک اطفال، خوش‌برخورد و باتجربه در واکسیناسیون و مراقبت از کودکان.',
-        avatar: 'https://i.pravatar.cc/150?img=5',
+        avatar: 'https://randomuser.me/api/portraits/men/12.jpg',
         schedule: { days: [1,3,4,5], start: '10:00', end: '16:00', slotMinutes: 30 }
     },
     {
@@ -26,7 +26,7 @@ export const DOCTORS = [
         city: 'اصفهان',
         rating: 4.9,
         bio: 'متخصص پوست و زیبایی با تمرکز روی درمان‌های غیرتهاجمی.',
-        avatar: 'https://i.pravatar.cc/150?img=20',
+        avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
         schedule: { days: [2,3,4], start: '11:00', end: '18:00', slotMinutes: 30 }
     },
     {
@@ -36,7 +36,7 @@ export const DOCTORS = [
         city: 'تهران',
         rating: 4.5,
         bio: 'جراحی ارتوپدی و درمان آسیب‌های ورزشی.',
-        avatar: 'https://i.pravatar.cc/150?img=15',
+        avatar: 'https://randomuser.me/api/portraits/men/33.jpg',
         schedule: { days: [1,2,5], start: '09:30', end: '15:30', slotMinutes: 30 }
     },
     {
@@ -46,7 +46,7 @@ export const DOCTORS = [
         city: 'شیراز',
         rating: 4.6,
         bio: 'تجربهٔ بالا در مراقبت‌های پیش از بارداری و زایمان.',
-        avatar: 'https://i.pravatar.cc/150?img=8',
+        avatar: 'https://randomuser.me/api/portraits/women/22.jpg',
         schedule: { days: [1,2,3,4], start: '09:00', end: '13:00', slotMinutes: 30 }
     },
     {
@@ -56,7 +56,7 @@ export const DOCTORS = [
         city: 'کرج',
         rating: 4.4,
         bio: 'متخصص گوارش و کبد، مناسب برای تشخیص و درمان بیماری‌های روده‌ای.',
-        avatar: 'https://i.pravatar.cc/150?img=18',
+        avatar: 'https://randomuser.me/api/portraits/men/41.jpg',
         schedule: { days: [2,3,4,5], start: '12:00', end: '18:00', slotMinutes: 30 }
     },
     {
@@ -66,7 +66,7 @@ export const DOCTORS = [
         city: 'تهران',
         rating: 4.3,
         bio: 'روان‌درمانگر و روان‌پزشک با رویکرد ترکیبی دارو + روان‌درمانی.',
-        avatar: 'https://i.pravatar.cc/150?img=9',
+        avatar: 'https://randomuser.me/api/portraits/women/30.jpg',
         schedule: { days: [1,4,5], start: '14:00', end: '20:00', slotMinutes: 30 }
     },
     {
@@ -76,7 +76,7 @@ export const DOCTORS = [
         city: 'تبریز',
         rating: 4.7,
         bio: 'جراح چشم و متخصص بیماری‌های شبکیه و آب‌مروارید.',
-        avatar: 'https://i.pravatar.cc/150?img=3',
+        avatar: 'https://randomuser.me/api/portraits/men/27.jpg',
         schedule: { days: [1,2,3,4,5], start: '08:30', end: '14:30', slotMinutes: 30 }
     }
 ];

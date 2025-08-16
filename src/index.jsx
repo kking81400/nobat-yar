@@ -6,7 +6,7 @@ import './output.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/nobat-yar/">
             <App />
         </BrowserRouter>
     </React.StrictMode>
